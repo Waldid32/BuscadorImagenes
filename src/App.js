@@ -60,7 +60,8 @@ class App extends Component {
 
   consultarApi = () => {
     const termino = this.state.termino;
-    const key = "20222013-2dccd7a734d6225eb8e0fb9af";
+    //Debes ingresar tu KEY del APÍ aquí
+    const key = "";
     const pagina = this.state.pagina;
     const url = `https://pixabay.com/api/?key=${key}&q=${termino}&per_page=30&page=${pagina}`;
     // console.log(url);
